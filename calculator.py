@@ -11,14 +11,14 @@ print("Enter D for Division")
 calculation = input("Enter the Operation required(A,B,C,D): ")
 
 if calculation.upper() == "A":
-    print(num1 + num2)
+    print(f"{num1} + {num2} = ", num1 + num2)
 elif calculation.upper() == "B":
-    print(num1 - num2)
+    print(f"{num1} + {num2} = ", num1 - num2)
 elif calculation.upper() == "C":
-    print(num1 * num2)
+    print(f"{num1} + {num2} = ", num1 * num2)
 elif calculation.upper() == "D":
     try:
-        print(num1 / num2)
+        print(f"{num1} + {num2} = ", num1 / num2)
     except ZeroDivisionError:
         print("Cannot divide by zero.") 
 else:
